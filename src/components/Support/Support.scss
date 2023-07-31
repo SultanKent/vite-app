@@ -1,0 +1,34 @@
+.Support {
+    padding: 110px 149px;
+    .Support_main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width: 1000px) {
+            flex-direction: column;
+            gap: 20px;
+        }
+        .Supported_wallets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .top-wallets {
+            margin-bottom: 33px;
+        }
+        .top-wallets, .bottom-wallets {
+            display: flex;
+            gap: 20px;
+            .Wallet_img {
+                width: 59px;
+                height: 59px;
+            }
+        }
+      }
+      .Supported_text {
+        >h1 {
+            font-size: 35px;
+            margin-bottom: 12px;
+        }
+      }
+    }
+}

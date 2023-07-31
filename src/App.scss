@@ -1,0 +1,28 @@
+$textColor: rgba(0, 0, 0, 0.60);
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./Outfit-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4, p {
+    font-family: 'Outfit', sans-serif;
+    color: #000;
+}
+
+button, input {
+    border: none;
+    outline: none;
+}
+
+li {
+    list-style-type: none;
+}

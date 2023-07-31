@@ -1,0 +1,33 @@
+.LogIn {
+    background: url(../../assets/Login.png) no-repeat;
+    background-size: cover;
+    height: 358px;
+    .LogIn_main {
+        padding: 114px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        >h1 {
+            font-size: 36px;
+            max-width: 538px;
+            @media (max-width: 520px) {
+                max-width: 300px;
+                font-size: 23px;
+            }
+        }
+        >button {
+            width: 201px;
+            height: 58px;
+            background: #000;
+            color: white;
+            text-transform: uppercase;
+            &:hover {
+                transition: 0.5s;
+                background: #778899;
+            }
+        }
+    }
+}

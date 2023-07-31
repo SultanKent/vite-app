@@ -1,0 +1,63 @@
+.Multichain {
+    padding: 80px 30px;
+    .Multichain_main {
+        >h1 {
+            font-size: 37px;
+            margin-bottom: 12px;
+        }
+        >p {
+            font-size: 18px;
+            width: 351px;
+            margin-bottom: 92px;
+            @media (max-width: 520px) {
+                width: 240px;
+            }
+        }
+        .Multichain_content1 {
+            padding-left: 296px;
+            margin-bottom: 52px;
+            display: flex;
+            gap: 35px;
+            align-items: center;
+            @media (max-width: 520px) {
+                padding-left: 0px;
+                margin-bottom: 32px;
+            }
+        }
+        .Frame_back {
+            width: 59px;
+            height: 59px;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            &.first {
+                background: linear-gradient(#E1EFFF, #2775CA);
+            }
+            &.second {
+                background: linear-gradient(#E0E0E0, #47443D);
+            }
+            &.third {
+                background: linear-gradient(#9945FF, #8752F3, #5497D5, #43B4CA, #28E0B9, #19FB9B);
+            }
+        }
+        .Multichain_content2 {
+            display: flex;
+            align-items: center;
+            gap: 423px;
+            @media (max-width: 768px) {
+                gap: 134px;
+            }
+            @media (max-width: 520px) {
+                flex-direction: column;
+                align-items: unset;
+                gap: 32px;
+            }
+        }
+        .Frame_content1 {
+            gap: 35px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
